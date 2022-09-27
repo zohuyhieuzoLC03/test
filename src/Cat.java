@@ -2,11 +2,9 @@ public class Cat implements Animal{
 
     @Override
     public String sound() {
-        return "meo meo";
+        return "meo meo meo";
     }
-
-    @Override
-    public String size() {
-        return "small";
+    public String color() {
+        return "white";
     }
 }
